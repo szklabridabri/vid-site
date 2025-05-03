@@ -6,7 +6,8 @@ function like(index) { const span = document.getElementById("like" + index); con
 
 document.getElementById("search").addEventListener("input", loadVideos);
 
-// Obsługa uploadu z limitem czasu const uploadInput = document.getElementById("uploadInput"); const uploadBtn = document.getElementById("uploadBtn"); const uploadMsg = document.getElementById("uploadMessage");
+// Obsługa uploadu z limitem czasu 
+const uploadInput = document.getElementById("uploadInput"); const uploadBtn = document.getElementById("uploadBtn"); const uploadMsg = document.getElementById("uploadMessage");
 
 const LIMIT_MS = 20 * 60 * 1000; // 20 minut
 
